@@ -6,9 +6,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var number = "1234";
-            byte b = Convert.ToByte(number);
-            Console.WriteLine(b);
+            var a = 1;
+            var b = 2;
+
+            Console.WriteLine(a > b);
         }
     }
 }
